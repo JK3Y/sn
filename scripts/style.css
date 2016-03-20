@@ -1,0 +1,309 @@
+* {
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+body {
+  background: #3fb0ac;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #3f3e3d;
+}
+a {
+  color: #3f3e3d;
+}
+input {
+  width: 236px;
+  height: 38px;
+  border: 1px solid #d2d2d2;
+  padding: 0 10px;
+  outline: none;
+  font-size: 17px;
+}
+input:focus {
+  background: #FFFDF2;
+}
+input[type="submit"] {
+  height: 36px;
+  width: auto;
+  border: 1px solid #215961;
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 20px;
+  cursor: pointer;
+  background: #215961;
+  background: -moz-linear-gradient(top, #215961 0%, #008080 100%, #000000 86%, #000000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #215961), color-stop(100%, #008080), color-stop(86%, #000000), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(top, #215961 0%, #008080 100%, #000000 86%, #000000 100%);
+  background: -o-linear-gradient(top, #215961 0%, #008080 100%, #000000 86%, #000000 100%);
+  background: -ms-linear-gradient(top, #215961 0%, #008080 100%, #000000 86%, #000000 100%);
+  background: linear-gradient(to bottom, #215961 0%, #008080 100%, #000000 86%, #000000 100%);
+  margin: 6px 0;
+}
+.wrapper {
+  width: 960px;
+  margin: auto;
+  text-align: left;
+}
+header {
+  height: 85px;
+  width: 100%;
+  background: #173e43;
+}
+header div.wrapper {
+  padding: 11px 0;
+}
+header div.wrapper a {
+  color: #dddfd4;
+  text-decoration: none;
+}
+header div.wrapper h1 {
+  position: relative;
+  margin: 0 15px 0 15px;
+  float: left;
+  font-size: 350%;
+  color: #dddfd4;
+}
+header div.wrapper span {
+  position: relative;
+  font-size: 18px;
+  margin: 0 15px 0 10px;
+  top: 10px;
+  color: #dddfd4;
+}
+header div.wrapper form {
+  position: relative;
+  display: inline;
+  top: 10px;
+}
+header div.wrapper form input {
+  margin: 0 0 0 14px;
+}
+#content {
+  min-height: 560px;
+  height: auto;
+  margin-bottom: 15px;
+  text-align: left;
+  background: white;
+}
+#content div.wrapper {
+  margin: 38px auto;
+  padding-top: 25px;
+}
+#content div.wrapper img {
+  border-radius: 6px;
+  float: left;
+  margin: 10px 5px 0 10px;
+}
+#content div.wrapper div.panel {
+  border: 1px solid #d2d2d2;
+  background: #e1e8f0;
+  margin: 0;
+  margin-bottom: 29px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+#content div.wrapper div.panel form {
+  padding: 0 23px;
+}
+#content div.wrapper div.panel h1 {
+  border-bottom: 1px solid #d2d2d2;
+  margin: 5px 0;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 13px 23px;
+  height: 23px;
+}
+#content div.wrapper div.panel p {
+  padding: 0 24px;
+  margin: 18px 0;
+}
+#content div.wrapper div.panel.left {
+  width: 633px;
+  float: left;
+}
+
+/*#content div.wrapper div.panel.left * {
+  border: 1px solid black;
+}*/
+
+#content div.wrapper div.panel.left div.postWrapper {
+  padding: 15px 0;
+  border-bottom: 1px solid #d2d2d2;
+  min-height: 70px;
+  display: block;
+}
+#content div.wrapper div.panel.left div.postWrapper:last-child {
+  border: none;
+}
+#content div.wrapper div.panel.left div.postWrapper span.name {
+  font-size: 18px;
+  color: #3f3e3d;
+}
+#content div.wrapper div.panel.left div.postWrapper span.time {
+  font-size: 12px;
+  color: #3f3e3d;
+  float: right;
+  padding-right: 10px;
+}
+#content div.wrapper div.panel.left div.postWrapper img.avatar {
+  margin: 0 19px 0 20px;
+  float: left;
+}
+#content div.wrapper div.panel.left div.postWrapper p {
+  margin: 5px 50px 0 90px;
+  padding: 0;
+  text-align: justify;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+#content div.wrapper div.panel.left div.postWrapper p span.spacing {
+  padding-left: 9px;
+  margin-left: 9px;
+  height: 10px;
+  border-left: 1px solid #d2d2d2;
+}
+#content div.wrapper div.panel.middle {
+  width: 70%;
+  display: inline-block;
+}
+/*#content div.wrapper div.panel.middle * {
+  margin: 6px 0;
+}*/
+#content div.wrapper div.panel.middle div.postWrapper {
+  padding: 15px 0;
+  min-height: 70px;
+  border-bottom: 1px solid #d2d2d2;
+  text-align: left;
+}
+#content div.wrapper div.panel.middle div.postWrapper:last-child {
+  border: none;
+}
+#content div.wrapper div.panel.middle div.postWrapper span.name {
+  font-size: 18px;
+  color: #3f3e3d;
+}
+#content div.wrapper div.panel.middle div.postWrapper span.time {
+  font-size: 12px;
+  color: #3f3e3d;
+  float: right;
+  padding-right: 10px;
+  text-decoration: none;
+}
+#content div.wrapper div.panel.middle div.postWrapper img.avatar {
+  margin: 0 19px 0 20px;
+  float: left;
+}
+#content div.wrapper div.panel.middle div.postWrapper p {
+  margin: 5px 50px 0 90px;
+  padding: 0;
+  text-align: justify;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+#content div.wrapper div.panel.middle div.postWrapper p span.spacing {
+  padding-left: 9px;
+  margin-left: 9px;
+  height: 10px;
+  border-left: 1px solid #d2d2d2;
+}
+#content div.wrapper div.panel.right {
+  width: 303px;
+  height: auto;
+  float: right;
+}
+#content div.wrapper div.panel.right textarea.postText {
+  width: 249px;
+  height: 160px;
+  border: 1px solid #d2d2d2;
+  resize: none;
+  font-size: 16px;
+}
+footer {
+  height: auto;
+  font-size: 14px;
+  clear: both;
+}
+footer div.wrapper {
+  text-align: center;
+  padding: 15px;
+}
+
+
+
+
+
+/* EDIT ACCOUNT PAGE STYLES */
+#content div.wrapper div#editacct.panel.left {
+  display: inline-block;
+  width: 500px;
+}
+#content div.wrapper div#editacct.panel.left * {
+  margin: 6px 0;
+  display: block;
+}
+#content div.wrapper div#editacct_photo.panel.right {
+  display: inline-block;
+  width: 440px;
+}
+#content div.wrapper div#editacct_photo.panel.right * {
+  margin: 6px 0;
+}
+
+
+.tabs form * {
+  margin: 6px 0;
+}
+#dialog {
+  display: none;
+}
+input[type="submit"].btnFollow, input[type="submit"].btnUnfollow  {
+  height: 18px;
+  width: 100px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+input[type="submit"].btnDelete {
+  height: 18px;
+  width: 100px;
+  margin-right: 10px;
+  background: red;
+  border: 1px solid red;
+  font-size: 12px;
+}
+
+form.headerform {
+  float: right;
+}
+
+/* STYLES FOR THE FOLLOWING LIST */
+#content div.wrapper div.panel.right div.fd {
+  display: block;
+  margin: 5px 10px 0 10px;
+  padding: 0 0 8px 10px;
+  border-bottom: 1px solid #d2d2d2;
+  min-height: 50px;
+}
+#content div.wrapper div.panel.right div.fd span.name {
+  font-size: 16px;
+  color: #3f3e3d;
+  float: right;
+  margin-right: 10px;
+}
+#content div.wrapper div.panel.right div.fd img.avatar {
+  margin: 0;
+  float: left;
+}
+
+/* STYLES FOR FOLLOWING LIST BORDER AND ALIGNMENT */
+#content div.wrapper div.panel.right div.fd:last-child {
+  border: none;
+}
+#content div.wrapper div.panel.right div.fd span.spacing {
+  padding-left: 9px;
+  margin-left: 9px;
+  height: 10px;
+  border-left: 1px solid #d2d2d2;
+}
